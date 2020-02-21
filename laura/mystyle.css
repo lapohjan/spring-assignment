@@ -1,0 +1,145 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.html {
+  scroll-behavior: smooth;
+  height: 100%;
+}
+
+header {
+  background-color: white;
+  height: 4rem;
+}
+
+body {
+  background: url(images/keyboard.jpg);
+  height: 100%;
+  font-family: arial;
+  object-fit: contain; 
+  }
+
+main {
+  font-family: arial;
+  margin: 1rem;
+  padding: 2rem;
+  }
+
+nav {
+  list-style-type: none;
+  float: left;
+  }
+  
+#headerP {
+  font-family: arial;
+  color: #222;
+  font-size: 24px;
+  margin: 15px;
+  }
+
+
+nav ul li {
+  background-color: white;
+  float: left;
+  list-style: none;
+  position: relative;
+  }
+
+nav ul li a {
+  display: block;
+  font-family: arial;
+  color: #222;
+  font-size: 14px;
+  padding: 22px 14px;
+  text-decoration: none;
+  }
+
+nav ul li ul {
+  display: none;
+  position: absolute;
+  background-color: #fff;
+  padding: 10px;
+  border-radius: 0px 0px 4px 4px;
+  }
+
+nav ul li:hover ul {
+  display: block;
+  }
+
+nav ul li ul li {
+  width: 180px;
+  border-radius: 4px;
+  }
+
+nav ul li ul li a {
+  padding: 8px 14px;
+  }
+
+nav ul li ul li a:hover {
+  background-color: #f3f3f3;
+  }
+
+#laura {
+  border-radius: 99rem;
+  height: 10rem;
+  margin-left: 50px;
+}
+
+#container_menu {
+  background-color: black;
+  object-fit: center;
+  max-width: 1000px;
+  padding: 50px 50px 50px 50px;
+  margin: 0 auto;
+}
+
+#container_0 {
+  background-color: black;
+  color: white; 
+  object-fit: center;
+  max-width: 1000px;
+  padding: 50px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  }
+  
+
+#container_1 {
+  background-color: black;
+  color: white; 
+  object-fit: center;
+  max-width: 1000px;
+  padding: 50px;
+  margin: 0 auto;
+}
+
+#container_2 {
+  background-color: black;
+  color: white; 
+  object-fit: center;
+  max-width: 1000px;
+  padding: 50px;
+  margin: 0 auto;
+}
+
+#container_3 {
+  background-color: black;
+  color: white; 
+  object-fit: center;
+  max-width: 1000px;
+  padding: 50px;
+  margin: 0 auto;
+}
+
+
+
+footer {
+  height: 3rem;
+  background-color: black;
+  position: bottom;
+  padding: 10px;
+  color: white;
+  text-align: center;
+  }
