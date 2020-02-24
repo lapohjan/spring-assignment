@@ -112,6 +112,13 @@ nav ul li ul li a:hover {
   margin: 0 auto;
   }
 
+.mySlides {
+ display:none
+}
+
+
+#slide1 {display:block}
+
 #container_1 {
   background-color: black;
   color: white; 

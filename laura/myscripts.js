@@ -5,6 +5,7 @@ function plusDivs(n) {
   showDivs(slideIndex += n);
 }
 
+
 function showDivs(n) {
   var i;
   var x = document.getElementsByClassName("mySlides");
