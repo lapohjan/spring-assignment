@@ -9,8 +9,10 @@ header {
 }
 
 body {
-  background: url(images/keyboard.jpg);
+  background: url(https://source.unsplash.com/iyuwZUE_BM4);
   font-family: arial;
+  background-repeat: no-repeat;
+  background-size: cover;
   object-fit: contain;
 }
 
@@ -75,16 +77,16 @@ nav ul li ul li a:hover {
 
 #laura {
   border-radius: 99rem;
-  height: 8rem;
-  margin-left: 30px;
+  height: 6rem;
+  margin-left: 25px;
 }
 
 #myname {
-  margin-left: 30px;
+  margin-left: 25px;
 }
 
 #container_menu {
-  background-color: black;
+  background-color: rgb(252, 158, 17, 0.735);
   max-width: 1000px;
   min-width: 400px;
   padding: 50px;
@@ -113,7 +115,7 @@ nav ul li ul li a:hover {
 }
 
 #container_1 {
-  background-color: black;
+  background-color: rgb(63, 26, 63, 0.735);
   color: white;
   object-fit: center;
   max-width: 1000px;
@@ -123,7 +125,7 @@ nav ul li ul li a:hover {
 }
 
 #container_2 {
-  background-color: black;
+  background-color: rgba(165, 44, 127, 0.735);
   color: white;
   object-fit: center;
   max-width: 1000px;
@@ -133,7 +135,7 @@ nav ul li ul li a:hover {
 }
 
 #container_3 {
-  background-color: black;
+  background-color: rgb(249, 118, 47, 0.735);
   color: white;
   object-fit: center;
   max-width: 1000px;
